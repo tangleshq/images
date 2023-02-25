@@ -2,8 +2,13 @@ module tangl.es/code/images
 
 require (
 	cloud.google.com/go v0.26.0
-	contrib.go.opencensus.io/exporter/stackdriver v0.6.0 // indirect
 	github.com/denisbrodbeck/sqip v0.6.2-0.20180524153901-924d0e9baef0
+	google.golang.org/grpc v1.14.0
+	yall.in v0.0.1
+)
+
+require (
+	contrib.go.opencensus.io/exporter/stackdriver v0.6.0 // indirect
 	github.com/fogleman/gg v1.1.0 // indirect
 	github.com/fogleman/primitive v0.0.0-20170926175833-69506c928bef // indirect
 	github.com/golang/freetype v0.0.0-20170609003504-e2365dfdc4a0 // indirect
@@ -20,11 +25,9 @@ require (
 	golang.org/x/net v0.0.0-20180826012351-8a410e7b638d // indirect
 	golang.org/x/oauth2 v0.0.0-20180821212333-d2e6202438be // indirect
 	golang.org/x/sync v0.0.0-20180314180146-1d60e4601c6f // indirect
-	golang.org/x/sys v0.0.0-20180831094639-fa5fdf94c789 // indirect
+	golang.org/x/sys v0.1.0 // indirect
 	golang.org/x/text v0.3.0 // indirect
 	google.golang.org/api v0.0.0-20180831000444-b810576d88a0 // indirect
 	google.golang.org/appengine v1.1.0 // indirect
 	google.golang.org/genproto v0.0.0-20180831171423-11092d34479b // indirect
-	google.golang.org/grpc v1.14.0
-	yall.in v0.0.1
 )
